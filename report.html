@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+body { margin: 1em 2em }
+h1 { text-decoration : underline }
+div { border: 10px solid; background: #ddd }
+ table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+@page {
+    @top-center {
+        content: "Reading Plus";
+    }
+
+    counter-increment: page;
+}
+
+@page:left {
+    @bottom-left {
+         content: counter(page) " of " counter(pages);
+    }
+}
+
+@page:right {
+    @bottom-right {
+         content: counter(page) " of " counter(pages);
+    }
+}
+
+.diagnostic-chart {
+  height: 1.5in;
+}
+</style>
+</head>
+
+<body>
+<h1>Benchmark Report</h1>
+
+<img class=diagnostic-chart src="chart.svg">
+
+<object type="image/svg+xml" data="chart.svg" class="diagnostic-chart">
+  fallback
+</object>
+
+<table>
+<thead>
+<tr><th>foobar</th></tr>
+</thead>
+<tbody>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+<tr><td>foobar</td></tr>
+</tbody>
+</table>
+</body>
+
+</html>

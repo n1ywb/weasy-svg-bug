@@ -1,0 +1,1708 @@
+<svg id="svg" version="1.1" baseProfile="full" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1958 578" xmlns="http://www.w3.org/2000/svg" style="height: 578px; width: 1958px;">
+
+  <style scope="emerson-chart-layout-0">
+    .light {
+      font-weight: 300;
+    }
+
+    .regular {
+      font-weight: 400;
+    }
+
+    .semi-bold {
+      font-weight: 600;
+    }
+
+    .bold {
+      font-weight: 700;
+    }
+
+    .extra-bold {
+      font-weight: 800;
+    }
+
+    svg {
+      font-family: 'Open Sans', 'Roboto', 'Noto', sans-serif;
+      font-size: 13px;
+    }
+
+    .bmk-below1Grade {
+      background-color: #f6eb7a;
+    }
+
+    .bmk-below2Grade {
+      background-color: #edcf71;
+    }
+
+    .bmk-below3Grade {
+      background-color: #ffa160;
+    }
+
+    .bmk-below4Grade {
+      background-color: #f77d60;
+    }
+
+    .bmk-atGrade {
+      background-color: #a2c56e;
+    }
+
+    .bmk-aboveGrade {
+      background-color: #46b662;
+    }
+
+    .bmk-below5PlusGrade {
+      background-color: #d43237;
+    }
+
+    .reader {
+      color: #88b535 !important;
+    }
+
+    .eye {
+      color: #f39019 !important;
+    }
+
+    .head {
+      color: #1a74bb !important;
+    }
+
+    .red {
+      color: #c82506 !important;
+    }
+
+    .orange {
+      color: #f39019 !important;
+    }
+
+    .light-green {
+      color: #bdd68e !important;
+    }
+
+    .green {
+      color: #88b535 !important;
+    }
+
+    .dark-green {
+      color: #88b535 !important;
+    }
+
+    .blue {
+      color: #1a74bb;
+    }
+
+    .grey {
+      color: #a6aaa9;
+    }
+
+    .dark-grey {
+      color: #53585f;
+    }
+
+    .beige {
+      color: #eddd90;
+    }
+
+    .em {
+      font-weight: bold;
+    }
+
+    a {
+      color: #2F74C3;
+    }
+
+    .link {
+      color: #2F74C3;
+    }
+
+    iron-icon:not([style-scope]) {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Amenu"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aadd"] {
+      color: #77C57B;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aedit"] {
+      color: #2F74C3;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ahelp"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ahelp-outline"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aalert"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Asort"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Agroup"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Acreate-group"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aclasses"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aremove"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Amail"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aarrow-drop-down"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Afilter"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aedit"] {
+      color: #2F74C3;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aprofile"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aregions"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Areports"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Asites"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Astudents"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Atools"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Atransfer"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aterritories"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ahome"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Adistricts"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ateachers"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Astaff"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Amessage"] {
+      color: #8DB83F;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aonhold"] {
+      color: #91036c;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aaward"] {
+      color: #0A69AE;
+    }
+
+    iron-icon[icon="emerson-icons\00003Anotif"] {
+      color: #F3B264;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aeye"] {
+      color: #2F74C3;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ahead"] {
+      color: #1a74bb;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aheart"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Areader"] {
+      color: #88b535;
+    }
+
+    iron-icon[icon="emerson-icons\00003Awelcome-greeting"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Awelcome-info"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Awelcome-tip"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Afeed-back"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aldr-report-icon"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Arpr-report-icon"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Astudent-rpr"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ause-report-icon"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Astudent-use"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Acomplete-checkmark"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aall-complete-checkmark"] {
+      color: #55B75A;
+    }
+
+    iron-icon[icon="emerson-icons\00003Asend-mail"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Ahistory"] {
+      color: #666666;
+    }
+
+    iron-icon[icon="emerson-icons\00003Acompleted"] {
+      color: #55B75A;
+    }
+
+    iron-icon[icon="emerson-icons\00003Abypass"] {
+      color: #F78D2D;
+    }
+
+    iron-icon[icon="emerson-icons\00003Achevron-dw"] {
+      color: #77C57B;
+    }
+
+    iron-icon[icon="emerson-icons\00003Achevron-up"] {
+      color: #55B75A;
+    }
+
+    iron-icon[icon="emerson-icons\00003Achevron-rg"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Achevron-lf"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aclose"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aarrow-rg"] {
+      color: #77C57B;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aarrow-dn"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aarrow-up"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Aarrow-lf"] {
+      color: #555555;
+    }
+
+    iron-icon[icon="emerson-icons\00003Acheck"] {
+      color: #77C57B;
+    }
+
+    iron-icon[icon="emerson-icons\00003Acancel"] {
+      color: #BF0000;
+    }
+    .contex-name {
+      font-size: 11px;
+      text-transform: uppercase;
+      margin-top: 5px;
+      color: #2F74C3;
+    }
+
+    .view-title {
+      font-size: 18px;
+      font-weight: 500;
+      color: #000000;
+    }
+
+    .link-button {
+      text-transform: UPPERCASE;
+      text-decoration: none;
+      color: #2F74C3;
+      cursor: pointer;
+    }
+
+    .link-button:hover {
+      text-decoration: underline;
+    }
+
+    svg {
+      font-size: 12px;
+      position: relative;
+    }
+
+    svg circle {
+      stroke: none;
+    }
+
+    .white {
+      fill: white;
+    }
+
+    .axisLabel {
+      fill: #53585f;
+      color: #53585f;
+      text-align: center;
+    }
+
+    .vert {
+      writing-mode: vertical-rl;
+      text-orientation: sideways-right;
+      transform: rotate(180deg);
+    }
+
+    #svgContainer {
+      height: 100%;
+      width: 100%;
+    }
+
+    .line {
+      stroke: black;
+      fill: none;
+      stroke-width: 3;
+    }
+
+    .primary {
+      fill: #1a74bb;
+      stroke: #1a74bb;
+    }
+
+    .secondary {
+      fill: #1a74bb;
+      stroke: #1a74bb;
+      stroke-dasharray: 5,5;
+    }
+
+    .line {
+      fill: none;
+    }
+
+    .invalid-point {
+      fill: #c82506;
+      stroke: none;
+    }
+
+    .invalid-text {
+      stroke: white;
+      font-size: 11px;
+    }
+
+    .chartBar {}
+
+    .label {
+      stroke: none;
+      fill: black;
+    }
+
+    #labelsGroup {
+      user-select: none;
+    }
+
+    #linesGroup > :nth-child(1) {}
+
+    #linesGroup > :nth-child(2) {}
+
+    #linesGroup > :nth-child(3) {}
+
+    .point {
+      stroke: none;
+    }
+
+    #pointsGroup > :nth-child(1) {}
+
+    #pointsGroup > :nth-child(2) {}
+
+    #pointsGroup > :nth-child(3) {}
+
+    #yAxis > g.tick > line {
+      stroke: #a6aaa9;
+      stroke-dasharray: 2,2;
+      stroke-width: 0.5;
+    }
+
+    #yAxis > g.tick > text {
+      display: none;
+    }
+
+    #yAxis2 > g.tick > line {
+      display: none;
+    }
+
+    #yAxis2 > g.tick > text {}
+
+    #yAxis2 > g.tick:nth-of-type(1) > text {
+      display: none;
+    }
+
+    #yAxis2 > g.tick:nth-of-type(5) > text {}
+
+    #yAxis2 > g.tick:nth-of-type(6) > text {
+      display: none;
+    }
+
+    #yAxis2 > g.tick:nth-of-type(7) > text {
+      display: none;
+    }
+
+    #yAxis2 > path {
+      display: none;
+    }
+
+    #xAxis > g.tick > line {
+      stroke: #a6aaa9;
+      stroke-dasharray: 2,2;
+      stroke-width: 0.5;
+    }
+
+    #xAxis > g.tick > text {}
+
+    #xAxis2 > g.tick > line {}
+
+    #xAxis2 > g.tick > text {}
+
+    #xAxis2 > g.tick:nth-of-type(1) > text {}
+
+    #xAxis2 > g.tick:nth-of-type(5) > text {}
+
+    #xAxis2 > g.tick:nth-of-type(6) > text {}
+
+    #xAxis2 > g.tick:nth-of-type(7) > text {}
+
+    .milestone {
+      fill: #a6aaa9;
+    }
+
+    #targetLine {}
+
+    #originLineX {
+      stroke: #a6aaa9;
+      stroke-width: 2px;
+    }
+
+    #originLineY {
+      stroke: #a6aaa9;
+      stroke-width: 2px;
+    }
+
+    .quad.ne {
+      fill: #c6ddcb;
+    }
+
+    .quad.nw {
+      fill: #f6ece5;
+    }
+
+    .quad.se {
+      fill: #fffbde;
+    }
+
+    .quad.sw {
+      fill: #f8dedf;
+    }
+
+    #legend {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      align-content: center;
+    }
+
+    .legendItem {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 2em;
+    }
+
+    .legendItem.small {
+      margin-right: 0;
+    }
+
+    .legendItem > * {
+      margin-right: 1em;
+      line-height: 20px;
+      vertical-align: baseline;
+    }
+
+    emerson-chart-legend-item-line {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      padding: 12px;
+    }
+
+    .tooltip > div {
+      padding: 2px;
+    }
+
+    .flexbox {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .vert {
+      writing-mode: vertical-rl;
+      text-orientation: sideways-right;
+      transform: rotate(180deg);
+      text-align: center;
+
+      width: 3em;
+      display: flex;
+
+      flex-direction: column-reverse;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      justify-content: center;
+    }
+
+    .width100 {
+      width: 100%;
+    }
+
+    .height100 {
+      height: 100%;
+    }
+
+    .grow {
+      flex: 1 1 auto;
+    }
+
+    #svgContainer {
+      position: relative;
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    #legend {
+      flex-shrink: 0;
+      flex-grow: 0;
+    }
+  </style>
+
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"></feGaussianBlur>
+    </filter>
+    <g id="symbol">
+      <circle class="point primary" r="6" style="fill: inherit; stroke: none"></circle>
+      <circle class="point white" r="2" style="fill: white; stroke: none"></circle>
+    </g>
+    <g id="circle">
+      <circle class="point" r="6" style="fill: inherit; stroke: none"></circle>
+    </g>
+    <g id="square">
+      <rect class="point" x="-6" y="-6" width="12" height="12" style="fill: inherit; stroke: none"></rect>
+    </g>
+    <g id="diamond" transform="rotate(45) scale(0.8)">
+      <rect class="point" x="-6" y="-6" width="12" height="12" style="fill: inherit; stroke: none"></rect>
+    </g>
+    <g id="triangle" transform="translate(-6,-6)">
+      <polygon class="point" points="0,12 12,12 6,0" style="fill: inherit; stroke: none"></polygon>
+    </g>
+    <g id="invalid">
+      <circle class="point primary invalid-point" r="6"></circle>
+      <text text-anchor="middle" alignment-baseline="central" class="invalid-text" style="color: white; fill: white; stroke: none; font-size: 10px; font-weight: bold; user-select: none;">
+        ?
+      </text>
+    </g>
+  </defs>
+  <g id="chartGroup" transform="translate(32 24)">
+    <g id="bg" class="">
+      <rect x="1063" y="177" width="1063" height="177" transform="translate(-1063 -177)" class="quad nw"></rect>
+      <rect x="1063" y="177" width="855" height="177" transform="translate(0, -177)" class="quad ne"></rect>
+      <rect x="1063" y="177" width="1063" height="353" transform="translate(-1063, 0)" class="quad sw"></rect>
+      <rect x="1063" y="177" width="855" height="353" transform="translate(0 0)" class="quad se"></rect>
+    </g>
+    <path id="targetLine" class="target line"></path>
+    <text id="targetLabel" class="target label"></text>
+    <g id="xAxis" class="x axis" transform="translate(0 530)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+      <path class="domain" stroke="#000" d="M0.5,0V0.5H1918.5V0"></path>
+      <g class="tick" opacity="1" transform="translate(26.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">-10</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(233.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">-8</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(441.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">-6</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(648.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">-4</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(855.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">-2</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(1063.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">Grade Level</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(1270.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">2</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(1477.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">4</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(1685.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">6</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(1892.5,0)">
+        <line stroke="#000" y2="-530"></line>
+        <text fill="#000" y="3" dy="0.71em">8</text>
+      </g>
+    </g>
+    <g id="xAxis2" class="x axis"></g>
+    <g id="yAxis" class="y axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+      <path class="domain" stroke="#000" d="M0,530.5H0.5V0.5H0"></path>
+      <g class="tick" opacity="1" transform="translate(0,530.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">0</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,442.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">1</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,353.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">2</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,265.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">3</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,177.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">4</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,88.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">5</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,0.5)">
+        <line stroke="#000" x2="1918"></line>
+        <text fill="#000" x="-3" dy="0.32em">6</text>
+      </g>
+    </g>
+    <g id="yAxis2" class="y axis" transform="translate(0 -44.166666666666664)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+      <path class="domain" stroke="#000" d="M-6,530.5H0.5V0.5H-6"></path>
+      <g class="tick" opacity="1" transform="translate(0,530.5)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">X0</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,442.16666666666663)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">Q1</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,353.8333333333333)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">Q2</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,265.5)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">Q3</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,177.16666666666666)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">Q4</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,88.83333333333333)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">X5</text>
+      </g>
+      <g class="tick" opacity="1" transform="translate(0,0.5)">
+        <line stroke="#000" x2="-6"></line>
+        <text fill="#000" x="-9" dy="0.32em">X6</text>
+      </g>
+    </g>
+    <g id="milestonesGroup">
+      <text x="0" y="0" class="quad-label" text-anchor="start" transform="translate(26.5 26.5)">LOWER COMP/VOCAB</text>
+      <text x="0" y="0" class="quad-label" text-anchor="start" transform="translate(26.5 53)">HIGHER FLUENCY</text>
+      <text x="0" y="0" class="quad-label" text-anchor="end" transform="translate(1891.5 26.5)">HIGHER COMP/VOCAB</text>
+      <text x="0" y="0" class="quad-label" text-anchor="end" transform="translate(1891.5 53)">HIGHER FLUENCY</text>
+      <text x="0" y="0" class="quad-label" text-anchor="end" transform="translate(1891.5 503.5)">LOWER FLUENCY</text>
+      <text x="0" y="0" class="quad-label" text-anchor="end" transform="translate(1891.5 477)">HIGHER COMP/VOCAB</text>
+      <text x="0" y="0" class="quad-label" text-anchor="start" transform="translate(26.5 503.5)">LOWER FLUENCY</text>
+      <text x="0" y="0" class="quad-label" text-anchor="start" transform="translate(26.5 477)">LOWER COMP/VOCAB</text>
+    </g>
+    <path id="primaryLine" class="primary line"></path>
+    <path id="secondaryLine" class="secondary line"></path>
+    <g id="linesGroup" class="linesGroup"></g>
+    <g id="originLineX" class="origin x" fill="none" font-size="10" font-family="sans-serif" text-anchor="end" transform="translate(1063, 0)">
+      <path class="domain" d="M0,530.5H0.5V0.5H0"></path>
+    </g>
+    <g id="originLineY" class="origin y" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" transform="translate(0, 177)">
+      <path class="domain" d="M0.5,0V0.5H1918.5V0"></path>
+    </g>
+    <g id="pointsGroup" class="pointsGroup">
+      <use xlink:href="#invalid" class="point primary point-primary ready" transform="translate(1197 345)" data-index="0"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1394 353)" data-index="1"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1011 380)" data-index="2"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1011 345)" data-index="3"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1083 353)" data-index="4"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1384 371)" data-index="5"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(980 327)" data-index="6"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1405 389)" data-index="7"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1197 168)" data-index="8"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1363 168)" data-index="9"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(886 141)" data-index="10"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(980 380)" data-index="11"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(980 212)" data-index="12"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1363 177)" data-index="13"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1146 362)" data-index="14"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1146 300)" data-index="15"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1218 380)" data-index="16"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(959 442)" data-index="17"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1011 362)" data-index="18"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(969 362)" data-index="19"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1135 194)" data-index="20"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1104 97)" data-index="21"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1405 309)" data-index="22"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1799 141)" data-index="23"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1374 247)" data-index="24"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1415 336)" data-index="25"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1540 336)" data-index="26"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1301 256)" data-index="27"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1125 398)" data-index="28"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1249 133)" data-index="29"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1135 283)" data-index="30"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(959 398)" data-index="31"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(897 371)" data-index="32"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1353 194)" data-index="33"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1083 274)" data-index="34"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1208 362)" data-index="35"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1197 336)" data-index="36"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1311 380)" data-index="37"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1115 159)" data-index="38"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1343 168)" data-index="39"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1446 345)" data-index="40"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1747 177)" data-index="41"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1820 150)" data-index="42"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(980 380)" data-index="43"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1280 212)" data-index="44"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1115 212)" data-index="45"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1457 318)" data-index="46"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1021 203)" data-index="47"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1218 362)" data-index="48"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1000 371)" data-index="49"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1343 300)" data-index="50"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(938 371)" data-index="51"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1052 318)" data-index="52"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(990 371)" data-index="53"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1104 159)" data-index="54"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(835 283)" data-index="55"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1125 150)" data-index="56"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(990 239)" data-index="57"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1187 177)" data-index="58"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1125 380)" data-index="59"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1311 283)" data-index="60"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1063 124)" data-index="61"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1094 141)" data-index="62"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(783 371)" data-index="63"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1208 380)" data-index="64"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1104 362)" data-index="65"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1177 371)" data-index="66"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1032 203)" data-index="67"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1332 239)" data-index="68"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1042 336)" data-index="69"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1011 292)" data-index="70"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1083 371)" data-index="71"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(949 150)" data-index="72"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(897 168)" data-index="73"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1104 150)" data-index="74"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1343 353)" data-index="75"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1415 265)" data-index="76"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1208 141)" data-index="77"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1177 124)" data-index="78"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(835 309)" data-index="79"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1052 274)" data-index="80"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(928 150)" data-index="81"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(855 265)" data-index="82"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1073 362)" data-index="83"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1052 362)" data-index="84"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1249 283)" data-index="85"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(503 106)" data-index="86"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(803 274)" data-index="87"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1488 256)" data-index="88"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1374 88)" data-index="89"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1104 327)" data-index="90"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1166 150)" data-index="91"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1332 300)" data-index="92"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1405 327)" data-index="93"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1239 230)" data-index="94"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1208 203)" data-index="95"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1446 362)" data-index="96"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(503 159)" data-index="97"></use>
+      <use xlink:href="#diamond" class="point primary point-primary not-ready" transform="translate(410 442)" data-index="98"></use>
+      <use xlink:href="#diamond" class="point primary point-primary not-ready" transform="translate(389 442)" data-index="99"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(555 380)" data-index="100"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(855 97)" data-index="101"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(731 300)" data-index="102"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(990 318)" data-index="103"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1042 309)" data-index="104"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(938 353)" data-index="105"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1208 353)" data-index="106"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1166 327)" data-index="107"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1021 300)" data-index="108"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1301 133)" data-index="109"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1311 150)" data-index="110"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1384 133)" data-index="111"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1270 168)" data-index="112"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1115 159)" data-index="113"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1353 230)" data-index="114"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(607 380)" data-index="115"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(938 371)" data-index="116"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1146 380)" data-index="117"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1094 371)" data-index="118"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1270 353)" data-index="119"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1384 327)" data-index="120"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1156 221)" data-index="121"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1249 133)" data-index="122"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1177 124)" data-index="123"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1052 150)" data-index="124"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1166 292)" data-index="125"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1218 221)" data-index="126"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1301 371)" data-index="127"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1374 362)" data-index="128"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1115 380)" data-index="129"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1353 371)" data-index="130"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(855 380)" data-index="131"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1125 327)" data-index="132"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(741 389)" data-index="133"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(990 168)" data-index="134"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1280 150)" data-index="135"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1363 124)" data-index="136"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1374 115)" data-index="137"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1374 106)" data-index="138"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1322 247)" data-index="139"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1332 194)" data-index="140"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1343 353)" data-index="141"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1343 177)" data-index="142"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1270 398)" data-index="143"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1311 362)" data-index="144"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(679 380)" data-index="145"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(731 221)" data-index="146"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1042 371)" data-index="147"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1042 353)" data-index="148"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(565 389)" data-index="149"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(824 380)" data-index="150"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(503 442)" data-index="151"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(762 380)" data-index="152"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1197 141)" data-index="153"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1374 141)" data-index="154"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1353 212)" data-index="155"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1363 150)" data-index="156"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1332 247)" data-index="157"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1249 168)" data-index="158"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(772 389)" data-index="159"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(814 371)" data-index="160"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(689 371)" data-index="161"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(1011 327)" data-index="162"></use>
+      <use xlink:href="#diamond" class="point primary point-primary not-ready" transform="translate(88 442)" data-index="163"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(150 442)" data-index="164"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(109 442)" data-index="165"></use>
+      <use xlink:href="#diamond" class="point primary point-primary not-ready" transform="translate(700 442)" data-index="166"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(793 442)" data-index="167"></use>
+      <use xlink:href="#diamond" class="point primary point-primary not-ready" transform="translate(700 442)" data-index="168"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(731 442)" data-index="169"></use>
+      <use xlink:href="#diamond" class="point primary point-primary not-ready" transform="translate(181 442)" data-index="170"></use>
+      <use xlink:href="#circle" class="point primary point-primary ready" transform="translate(555 442)" data-index="171"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(264 442)" data-index="172"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(627 442)" data-index="173"></use>
+      <use xlink:href="#circle" class="point primary point-primary borderline" transform="translate(627 442)" data-index="174"></use>
+    </g>
+    <g id="labelsGroup">
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1187.65625" y="325.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1197" y="335" data-index="0">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1384.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1394" y="343" data-index="1">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1001.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1011" y="370" data-index="2">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1001.65625" y="325.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1011" y="335" data-index="3">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1073.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1083" y="343" data-index="4">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1374.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1384" y="361" data-index="5">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="970.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="980" y="317" data-index="6">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1395.65625" y="369.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1405" y="379" data-index="7">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1187.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1197" y="158" data-index="8">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1353.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1363" y="158" data-index="9">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="876.65625" y="121.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="886" y="131" data-index="10">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="970.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="980" y="370" data-index="11">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="970.65625" y="192.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="980" y="202" data-index="12">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1353.65625" y="157.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1363" y="167" data-index="13">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1136.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1146" y="352" data-index="14">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1136.65625" y="280.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1146" y="290" data-index="15">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1208.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1218" y="370" data-index="16">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="949.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="959" y="432" data-index="17">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1001.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1011" y="352" data-index="18">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="959.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="969" y="352" data-index="19">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1125.65625" y="174.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1135" y="184" data-index="20">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1094.65625" y="77.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1104" y="87" data-index="21">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1395.65625" y="289.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1405" y="299" data-index="22">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1789.65625" y="121.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1799" y="131" data-index="23">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1364.65625" y="227.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1374" y="237" data-index="24">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1405.65625" y="316.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1415" y="326" data-index="25">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1530.65625" y="316.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1540" y="326" data-index="26">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1291.65625" y="236.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1301" y="246" data-index="27">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1115.65625" y="378.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1125" y="388" data-index="28">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1239.65625" y="113.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1249" y="123" data-index="29">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1125.65625" y="263.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1135" y="273" data-index="30">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="949.65625" y="378.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="959" y="388" data-index="31">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="887.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="897" y="361" data-index="32">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1343.65625" y="174.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1353" y="184" data-index="33">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1073.65625" y="254.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1083" y="264" data-index="34">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1198.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1208" y="352" data-index="35">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1187.65625" y="316.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1197" y="326" data-index="36">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1301.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1311" y="370" data-index="37">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1105.65625" y="139.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1115" y="149" data-index="38">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1333.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1343" y="158" data-index="39">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1436.65625" y="325.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1446" y="335" data-index="40">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1737.65625" y="157.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1747" y="167" data-index="41">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1810.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1820" y="140" data-index="42">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="970.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="980" y="370" data-index="43">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1270.65625" y="192.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1280" y="202" data-index="44">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1105.65625" y="192.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1115" y="202" data-index="45">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1447.65625" y="298.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1457" y="308" data-index="46">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1011.65625" y="183.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1021" y="193" data-index="47">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1208.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1218" y="352" data-index="48">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="990.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1000" y="361" data-index="49">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1333.65625" y="280.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1343" y="290" data-index="50">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="928.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="938" y="361" data-index="51">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1042.65625" y="298.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1052" y="308" data-index="52">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="980.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="990" y="361" data-index="53">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1094.65625" y="139.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1104" y="149" data-index="54">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="825.65625" y="263.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="835" y="273" data-index="55">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1115.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1125" y="140" data-index="56">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="980.65625" y="219.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="990" y="229" data-index="57">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1177.65625" y="157.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1187" y="167" data-index="58">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1115.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1125" y="370" data-index="59">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1301.65625" y="263.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1311" y="273" data-index="60">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1053.65625" y="104.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1063" y="114" data-index="61">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1084.65625" y="121.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1094" y="131" data-index="62">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="773.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="783" y="361" data-index="63">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1198.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1208" y="370" data-index="64">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1094.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1104" y="352" data-index="65">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1167.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1177" y="361" data-index="66">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1022.65625" y="183.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1032" y="193" data-index="67">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1322.65625" y="219.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1332" y="229" data-index="68">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1032.65625" y="316.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1042" y="326" data-index="69">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1001.65625" y="272.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1011" y="282" data-index="70">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1073.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1083" y="361" data-index="71">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="939.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="949" y="140" data-index="72">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="887.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="897" y="158" data-index="73">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1094.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1104" y="140" data-index="74">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1333.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1343" y="343" data-index="75">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1405.65625" y="245.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1415" y="255" data-index="76">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1198.65625" y="121.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1208" y="131" data-index="77">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1167.65625" y="104.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1177" y="114" data-index="78">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="825.65625" y="289.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="835" y="299" data-index="79">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1042.65625" y="254.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1052" y="264" data-index="80">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="918.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="928" y="140" data-index="81">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="845.65625" y="245.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="855" y="255" data-index="82">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1063.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1073" y="352" data-index="83">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1042.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1052" y="352" data-index="84">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1239.65625" y="263.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1249" y="273" data-index="85">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="493.65625" y="86.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="503" y="96" data-index="86">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="793.65625" y="254.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="803" y="264" data-index="87">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1478.65625" y="236.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1488" y="246" data-index="88">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1364.65625" y="68.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1374" y="78" data-index="89">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1094.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1104" y="317" data-index="90">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1156.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1166" y="140" data-index="91">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1322.65625" y="280.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1332" y="290" data-index="92">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1395.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1405" y="317" data-index="93">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1229.65625" y="210.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1239" y="220" data-index="94">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1198.65625" y="183.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1208" y="193" data-index="95">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1436.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1446" y="352" data-index="96">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="493.65625" y="139.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="503" y="149" data-index="97">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="400.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="410" y="432" data-index="98">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="379.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="389" y="432" data-index="99">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="545.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="555" y="370" data-index="100">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="845.65625" y="77.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="855" y="87" data-index="101">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="721.65625" y="280.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="731" y="290" data-index="102">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="980.65625" y="298.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="990" y="308" data-index="103">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1032.65625" y="289.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1042" y="299" data-index="104">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="928.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="938" y="343" data-index="105">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1198.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1208" y="343" data-index="106">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1156.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1166" y="317" data-index="107">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1011.65625" y="280.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1021" y="290" data-index="108">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1291.65625" y="113.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1301" y="123" data-index="109">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1301.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1311" y="140" data-index="110">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1374.65625" y="113.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1384" y="123" data-index="111">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1260.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1270" y="158" data-index="112">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1105.65625" y="139.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1115" y="149" data-index="113">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1343.65625" y="210.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1353" y="220" data-index="114">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="597.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="607" y="370" data-index="115">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="928.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="938" y="361" data-index="116">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1136.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1146" y="370" data-index="117">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1084.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1094" y="361" data-index="118">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1260.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1270" y="343" data-index="119">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1374.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1384" y="317" data-index="120">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1146.65625" y="201.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1156" y="211" data-index="121">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1239.65625" y="113.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1249" y="123" data-index="122">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1167.65625" y="104.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1177" y="114" data-index="123">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1042.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1052" y="140" data-index="124">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1156.65625" y="272.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1166" y="282" data-index="125">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1208.65625" y="201.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1218" y="211" data-index="126">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1291.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1301" y="361" data-index="127">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1364.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1374" y="352" data-index="128">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1105.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1115" y="370" data-index="129">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1343.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1353" y="361" data-index="130">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="845.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="855" y="370" data-index="131">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1115.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1125" y="317" data-index="132">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="731.65625" y="369.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="741" y="379" data-index="133">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="980.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="990" y="158" data-index="134">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1270.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1280" y="140" data-index="135">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1353.65625" y="104.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1363" y="114" data-index="136">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1364.65625" y="95.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1374" y="105" data-index="137">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1364.65625" y="86.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1374" y="96" data-index="138">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1312.65625" y="227.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1322" y="237" data-index="139">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1322.65625" y="174.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1332" y="184" data-index="140">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1333.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1343" y="343" data-index="141">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1333.65625" y="157.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1343" y="167" data-index="142">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1260.65625" y="378.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1270" y="388" data-index="143">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1301.65625" y="342.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1311" y="352" data-index="144">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="669.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="679" y="370" data-index="145">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="721.65625" y="201.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="731" y="211" data-index="146">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1032.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1042" y="361" data-index="147">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1032.65625" y="333.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1042" y="343" data-index="148">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="555.65625" y="369.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="565" y="379" data-index="149">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="814.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="824" y="370" data-index="150">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="493.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="503" y="432" data-index="151">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="752.65625" y="360.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="762" y="370" data-index="152">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1187.65625" y="121.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1197" y="131" data-index="153">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1364.65625" y="121.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1374" y="131" data-index="154">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1343.65625" y="192.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1353" y="202" data-index="155">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1353.65625" y="130.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1363" y="140" data-index="156">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="1322.65625" y="227.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1332" y="237" data-index="157">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1239.65625" y="148.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1249" y="158" data-index="158">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="762.65625" y="369.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="772" y="379" data-index="159">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="804.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="814" y="361" data-index="160">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="679.65625" y="351.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="689" y="361" data-index="161">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="1001.65625" y="307.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="1011" y="317" data-index="162">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="78.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="88" y="432" data-index="163">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="140.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="150" y="432" data-index="164">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="18.203125" height="10.75" x="99.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="109" y="432" data-index="165">B3</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="690.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="700" y="432" data-index="166">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="783.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="793" y="432" data-index="167">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="690.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="700" y="432" data-index="168">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="721.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="731" y="432" data-index="169">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="171.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="181" y="432" data-index="170">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="545.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="555" y="432" data-index="171">B2</text>
+      </g>
+      <g class="primary">
+        <rect width="18.203125" height="10.75" x="254.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="264" y="432" data-index="172">B3</text>
+      </g>
+      <g class="primary">
+        <rect width="17.421875" height="10.75" x="617.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="627" y="432" data-index="173">B1</text>
+      </g>
+      <g class="primary">
+        <rect width="19.453125" height="10.75" x="617.65625" y="422.234375" rx="5" ry="5" opacity="0.7" fill="white" stroke="none" filter="url(#blur)"></rect>
+        <text class="label primary label-primary " text-anchor="middle" x="627" y="432" data-index="174">B2</text>
+      </g>
+    </g>
+  </g>
+</svg>
